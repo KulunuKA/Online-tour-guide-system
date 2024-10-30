@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+         http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+         
+	<servlet>
+		<servlet-name>registerTourist</servlet-name>
+		<servlet-class>com.ceylontours.tourist.TouristCtrl</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>registerTourist</servlet-name>
+		<url-pattern>/registerTourist</url-pattern>
+	</servlet-mapping>
+	
+    <servlet>
+    	<servlet-name>updateTourist</servlet-name>
+    	<servlet-class>com.ceylontours.tourist.TouristCtrl</servlet-class>
+    </servlet>
+    <servlet-mapping>
+    	<servlet-name>updateTourist</servlet-name>
+    	<url-pattern>/updateTourist</url-pattern>
+    </servlet-mapping>
+
+	<servlet>
+		<servlet-name>uploadProfileimage</servlet-name>
+		<servlet-class>com.ceylontours.tourist.TouristCtrl</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>uploadProfileimage</servlet-name>
+		<url-pattern>/update</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>loginUser</servlet-name>
+		<servlet-class>com.ceylontours.tourist.LoginCtrl</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>loginUser</servlet-name>
+		<url-pattern>/loginUser</url-pattern>
+	</servlet-mapping>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+</web-app>
